@@ -9,7 +9,7 @@ Random forest has multiple parameters and selecting the right set of parameteres
 4. min_sample_leaf: this hyperparameter specifies the minimum number of samples that should be present in the leaf node after splitting a node.
 5. n_estimtors: number of trees to be created in Random forest model.
 6. max_samples: it determines what fraction of the original dataset is given to any individual tree while bootstrapping from the parent dataset.
-7. bootstrap = True or False. The default value of bootstrap is True but to disable the bootstrap we can assign it as False and the whole dataset will be considered for the formation of Decision Trees.
+7. bootstrap: True or False. The default value of bootstrap is True but to disable the bootstrap we can assign it as False and the whole dataset will be considered for the formation of Decision Trees.
 6. max_features: This denotes the maximum number of features to be considered while bootstrapping.
 
 For this model I use 2 methods of hyperparameter tuning:
